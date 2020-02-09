@@ -16,7 +16,9 @@ def find_greater_pair(src)
   
   array_2 =[]
   row_index = 0 
-  
+  while row_index < scr.count do
+    element_index = 0
+    inner_results = []
 end
 
 def total_even_pairs(src)
