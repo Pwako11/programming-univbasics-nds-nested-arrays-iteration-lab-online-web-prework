@@ -2,7 +2,7 @@ def join_ingredients(src)
   
   array_1 = []
   row_index = 0
-  while row_index < src.count do
+  while row_index < src.length do
     array_1<< ("I Love #{src[row_index][0]} and #{src[row_index][1]} on my pizza")
     row_index += 1
   end
