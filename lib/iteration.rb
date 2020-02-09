@@ -16,8 +16,8 @@ def find_greater_pair(src)
   
   array_2 =[]
   row_index = 0 
-  while row_index < scr.count do
-    array_2<< (src[row_index].max) 
+  while row_index < src.count do
+    array_2 << (src[row_index].max) 
     row_index += 1 
   end 
   array_2
