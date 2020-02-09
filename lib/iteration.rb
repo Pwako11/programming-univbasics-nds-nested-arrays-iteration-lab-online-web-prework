@@ -1,14 +1,12 @@
 def join_ingredients(src)
   
-  
-  new_array = []
+  array_1 = []
   row_index = 0
   while row_index < src.count do
-    new_array<< ("I Love #{src[row_index][0]} and #{src[row_index][1]} on my pizza")
+    array_1<< ("I Love #{src[row_index][0]} and #{src[row_index][1]} on my pizza")
     row_index += 1
   end
-  new_array
-  
+  array_1
 end
 
 def find_greater_pair(src)
