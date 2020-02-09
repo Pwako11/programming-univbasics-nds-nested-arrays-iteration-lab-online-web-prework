@@ -5,9 +5,9 @@ def join_ingredients(src)
   row_index = 0
   while row_index < src.count do
     new_array<< ("I Love #{src[row_index][0]} and #{src[row_index][1]} on my pizza")
-    element_index += 1
+    row_index += 1
   end
-  row_index += 1
+  new_array
   
 end
 
